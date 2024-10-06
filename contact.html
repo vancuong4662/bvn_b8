@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="trangtri.css">
+
+    <title>Giới thiệu</title>
+</head>
+<body>
+    <div class="globalweb">
+        <!-- Header -->
+        <div>
+            <div class="w3-bar w3-amber">
+                <button class="w3-bar-item w3-button w3-hover-black" onclick="quayLaiTrangChu()"><b><i class="fa fa-home"></i> Trang
+                        chủ</b></button>
+                <button class="w3-bar-item w3-button w3-hover-black"><i class="fa fa-shopping-cart"></i> Cửa
+                    hàng</button>
+                <button class="w3-bar-item w3-button w3-hover-black"><i class="fa fa-commenting"></i> Giới
+                    thiệu</button>
+                <button class="w3-bar-item w3-button w3-orange w3-hover-black"><i class="fa fa-envelope"></i> Liên hệ</button>
+                <button class="w3-bar-item w3-button w3-hover-black"><i class="fa fa-handshake-o"></i> Hợp tác</button>
+            </div>
+            
+        </div>
+
+        <!-- Web content -->
+         <div>
+            <div class="w3-row">
+                <div class="w3-col m8 w3-padding">
+                    <div class="w3-card-4 w3-padding" style="height: 400px">
+                        <div>
+                            <label><b>Họ và tên :</b></label>
+                            <input class="w3-input w3-border w3-leftbar w3-border-amber" id="input-name">
+                        </div>
+                        <div>
+                            <label><b>SĐT :</b></label>
+                            <input class="w3-input w3-border w3-leftbar w3-border-amber" id="input-phone">
+                        </div>
+                        <div>
+                            <label><b>Tin nhắn liên hệ :</b></label>
+                            <div>
+                                <textarea rows="6" col="300" class="w3-input w3-border w3-leftbar w3-border-amber" id="textarea-message"></textarea>
+                            </div>
+                        </div>
+                        <div class="w3-right">
+                            <button class="w3-button w3-deep-orange w3-round-large w3-margin-top" onclick="guiMail()">Xác nhận tin nhận</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-col m4">
+                    <img src="gioithieu.jpg" style="width: 100%;">
+                </div>
+            </div>
+         </div>
+
+    </div>
+
+    <script src="chuc_nang_chinh.js"></script>
+</body>
+</html>
